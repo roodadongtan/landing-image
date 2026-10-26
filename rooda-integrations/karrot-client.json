@@ -1,0 +1,18 @@
+{
+  "client_id": "https://raw.githubusercontent.com/roodadongtan/landing-image/main/rooda-integrations/karrot-client.json",
+  "client_name": "ROODA 광고 통합 관제",
+  "client_uri": "https://rooda-ad-control.rooda-dongtan.chatgpt.site",
+  "redirect_uris": [
+    "https://rooda-ad-control.rooda-dongtan.chatgpt.site/api/karrot/oauth/callback"
+  ],
+  "grant_types": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "response_types": [
+    "code"
+  ],
+  "token_endpoint_auth_method": "none",
+  "application_type": "web",
+  "scope": "ads:read offline_access"
+}
